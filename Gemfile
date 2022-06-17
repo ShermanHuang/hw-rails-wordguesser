@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-ruby '2.6.6'
+ruby '>= 2.6.6', '< 3.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.11'
+gem 'rails', '4.2.11.3'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
